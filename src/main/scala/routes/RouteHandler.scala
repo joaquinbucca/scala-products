@@ -1,4 +1,7 @@
+package routes
+
 import akka.http.scaladsl.server.Directives._
+import model.services.ProductService
 
 import scala.concurrent.ExecutionContext
 

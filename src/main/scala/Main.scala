@@ -2,6 +2,9 @@ import akka.actor.ActorSystem
 import akka.event.Logging
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
+import model.services.ProductService
+import routes.RouteHandler
+import utils.Config
 
 
 /**
