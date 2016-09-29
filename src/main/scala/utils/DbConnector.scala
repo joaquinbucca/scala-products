@@ -14,7 +14,7 @@ object DbConnector {
   val hosts = config.getStringList("cassandra.host")
   val inets = hosts.map(InetAddress.getByName)
 
-  val keySpace: String = "Products"
+  val keySpace: String = "Catalog"
 //  val keyspace: String = config.getString("cassandra.keyspace")
 
   /**

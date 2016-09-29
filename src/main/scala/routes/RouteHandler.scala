@@ -15,6 +15,7 @@ class RouteHandler(productsService: ProductService)(implicit ex : ExecutionConte
   val routes = {
     logRequestResult("akka-http-microservice") {
       productRouter.route
+
     }
   }
 
